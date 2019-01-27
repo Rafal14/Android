@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">automat</string>
+    <string name="drink_extras">Wybierz dodatki do napoju?</string>
+    <string name="pay">Zapłać</string>
+    <string name="sugar">Cukier</string>
+    <string name="cream">Śmietanka</string>
+    <string name="black_coffee">Czarna kawa</string>
+    <string name="espresso">Espresso</string>
+    <string name="tea">Herbata</string>
+    <string name="drink_type">Jaki napój chcesz wybrać?</string>
+    <string name="exit">Wyjdź</string>
+
+</resources>

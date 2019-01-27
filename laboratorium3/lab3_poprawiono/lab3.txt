@@ -1,0 +1,9 @@
+﻿-----------------------------------------------------------------------------------------------------------------------------
+Informacja dotycząca zmian w projekcie:
+
+Zmieniono wszystkie plik activity_main.xml, tak aby uporządkować 
+rozmieszczenie przycisków.
+
+Zmieniono zawartość w pliku MainActivity.java.
+Dodano obsługę funkcji dodawania, odejmowania, mnożenia, dzielenia,
+pierwiastka kwadratowego oraz wyświetlania wyniku.

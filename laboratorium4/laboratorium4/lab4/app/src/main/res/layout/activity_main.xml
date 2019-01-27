@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BtnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Sprawdz kontakty" />
+
+    <TextView
+        android:id="@+id/telNumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wiadomość SMS - podaj numer telefonu" />
+
+    <EditText
+        android:id="@+id/telNumEdit"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/msgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treść SMS" />
+
+    <EditText
+        android:id="@+id/msgEdit"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/BtnSend"
+        android:layout_width="162dp"
+        android:layout_height="35dp"
+        android:text="Wyślij SMS" />
+
+
+
+    <TextView
+        android:id="@+id/latText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj długość geograficzną" />
+
+    <EditText
+        android:id="@+id/latEdit"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/longText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj długość geograficzną" />
+
+    <EditText
+        android:id="@+id/longEdit"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/BtnLocate"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="Wyświetl mapę miejsca" />
+
+    <EditText
+        android:id="@+id/indEdit"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/BtnNewActivity"
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:text="Wyszukaj indeks" />
+
+    <TextView
+        android:id="@+id/txtRes"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F738A20F21C9498500450192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738A20E21C9498500450192 /* AppDelegate.swift */; };
+		F738A21121C9498500450192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738A21021C9498500450192 /* ViewController.swift */; };
+		F738A21421C9498500450192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F738A21221C9498500450192 /* Main.storyboard */; };
+		F738A21621C9498F00450192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F738A21521C9498F00450192 /* Assets.xcassets */; };
+		F738A21921C9498F00450192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F738A21721C9498F00450192 /* LaunchScreen.storyboard */; };
+		F738A22421C9498F00450192 /* labiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738A22321C9498F00450192 /* labiOSTests.swift */; };
+		F738A22F21C9499000450192 /* labiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738A22E21C9499000450192 /* labiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F738A22021C9498F00450192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F738A20321C9498500450192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F738A20A21C9498500450192;
+			remoteInfo = labiOS;
+		};
+		F738A22B21C9498F00450192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F738A20321C9498500450192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F738A20A21C9498500450192;
+			remoteInfo = labiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F738A20B21C9498500450192 /* labiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = labiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F738A20E21C9498500450192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F738A21021C9498500450192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F738A21321C9498500450192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F738A21521C9498F00450192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F738A21821C9498F00450192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F738A21A21C9498F00450192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F738A21F21C9498F00450192 /* labiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F738A22321C9498F00450192 /* labiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labiOSTests.swift; sourceTree = "<group>"; };
+		F738A22521C9498F00450192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F738A22A21C9498F00450192 /* labiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F738A22E21C9499000450192 /* labiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labiOSUITests.swift; sourceTree = "<group>"; };
+		F738A23021C9499000450192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F738A20821C9498500450192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F738A21C21C9498F00450192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F738A22721C9498F00450192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F738A20221C9498500450192 = {
+			isa = PBXGroup;
+			children = (
+				F738A20D21C9498500450192 /* labiOS */,
+				F738A22221C9498F00450192 /* labiOSTests */,
+				F738A22D21C9498F00450192 /* labiOSUITests */,
+				F738A20C21C9498500450192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F738A20C21C9498500450192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F738A20B21C9498500450192 /* labiOS.app */,
+				F738A21F21C9498F00450192 /* labiOSTests.xctest */,
+				F738A22A21C9498F00450192 /* labiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F738A20D21C9498500450192 /* labiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F738A20E21C9498500450192 /* AppDelegate.swift */,
+				F738A21021C9498500450192 /* ViewController.swift */,
+				F738A21221C9498500450192 /* Main.storyboard */,
+				F738A21521C9498F00450192 /* Assets.xcassets */,
+				F738A21721C9498F00450192 /* LaunchScreen.storyboard */,
+				F738A21A21C9498F00450192 /* Info.plist */,
+			);
+			path = labiOS;
+			sourceTree = "<group>";
+		};
+		F738A22221C9498F00450192 /* labiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F738A22321C9498F00450192 /* labiOSTests.swift */,
+				F738A22521C9498F00450192 /* Info.plist */,
+			);
+			path = labiOSTests;
+			sourceTree = "<group>";
+		};
+		F738A22D21C9498F00450192 /* labiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F738A22E21C9499000450192 /* labiOSUITests.swift */,
+				F738A23021C9499000450192 /* Info.plist */,
+			);
+			path = labiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F738A20A21C9498500450192 /* labiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F738A23321C9499000450192 /* Build configuration list for PBXNativeTarget "labiOS" */;
+			buildPhases = (
+				F738A20721C9498500450192 /* Sources */,
+				F738A20821C9498500450192 /* Frameworks */,
+				F738A20921C9498500450192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = labiOS;
+			productName = labiOS;
+			productReference = F738A20B21C9498500450192 /* labiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F738A21E21C9498F00450192 /* labiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F738A23621C9499000450192 /* Build configuration list for PBXNativeTarget "labiOSTests" */;
+			buildPhases = (
+				F738A21B21C9498F00450192 /* Sources */,
+				F738A21C21C9498F00450192 /* Frameworks */,
+				F738A21D21C9498F00450192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F738A22121C9498F00450192 /* PBXTargetDependency */,
+			);
+			name = labiOSTests;
+			productName = labiOSTests;
+			productReference = F738A21F21C9498F00450192 /* labiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F738A22921C9498F00450192 /* labiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F738A23921C9499000450192 /* Build configuration list for PBXNativeTarget "labiOSUITests" */;
+			buildPhases = (
+				F738A22621C9498F00450192 /* Sources */,
+				F738A22721C9498F00450192 /* Frameworks */,
+				F738A22821C9498F00450192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F738A22C21C9498F00450192 /* PBXTargetDependency */,
+			);
+			name = labiOSUITests;
+			productName = labiOSUITests;
+			productReference = F738A22A21C9498F00450192 /* labiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F738A20321C9498500450192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = PWr.Macbook.8;
+				TargetAttributes = {
+					F738A20A21C9498500450192 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F738A21E21C9498F00450192 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F738A20A21C9498500450192;
+					};
+					F738A22921C9498F00450192 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F738A20A21C9498500450192;
+					};
+				};
+			};
+			buildConfigurationList = F738A20621C9498500450192 /* Build configuration list for PBXProject "labiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F738A20221C9498500450192;
+			productRefGroup = F738A20C21C9498500450192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F738A20A21C9498500450192 /* labiOS */,
+				F738A21E21C9498F00450192 /* labiOSTests */,
+				F738A22921C9498F00450192 /* labiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F738A20921C9498500450192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F738A21921C9498F00450192 /* LaunchScreen.storyboard in Resources */,
+				F738A21621C9498F00450192 /* Assets.xcassets in Resources */,
+				F738A21421C9498500450192 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F738A21D21C9498F00450192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F738A22821C9498F00450192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F738A20721C9498500450192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F738A21121C9498500450192 /* ViewController.swift in Sources */,
+				F738A20F21C9498500450192 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F738A21B21C9498F00450192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F738A22421C9498F00450192 /* labiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F738A22621C9498F00450192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F738A22F21C9499000450192 /* labiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F738A22121C9498F00450192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F738A20A21C9498500450192 /* labiOS */;
+			targetProxy = F738A22021C9498F00450192 /* PBXContainerItemProxy */;
+		};
+		F738A22C21C9498F00450192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F738A20A21C9498500450192 /* labiOS */;
+			targetProxy = F738A22B21C9498F00450192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F738A21221C9498500450192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F738A21321C9498500450192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F738A21721C9498F00450192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F738A21821C9498F00450192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F738A23121C9499000450192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F738A23221C9499000450192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F738A23421C9499000450192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = labiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.labiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F738A23521C9499000450192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = labiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.labiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F738A23721C9499000450192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = labiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.labiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/labiOS.app/labiOS";
+			};
+			name = Debug;
+		};
+		F738A23821C9499000450192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = labiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.labiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/labiOS.app/labiOS";
+			};
+			name = Release;
+		};
+		F738A23A21C9499000450192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = labiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.labiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = labiOS;
+			};
+			name = Debug;
+		};
+		F738A23B21C9499000450192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = labiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.labiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = labiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F738A20621C9498500450192 /* Build configuration list for PBXProject "labiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F738A23121C9499000450192 /* Debug */,
+				F738A23221C9499000450192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F738A23321C9499000450192 /* Build configuration list for PBXNativeTarget "labiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F738A23421C9499000450192 /* Debug */,
+				F738A23521C9499000450192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F738A23621C9499000450192 /* Build configuration list for PBXNativeTarget "labiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F738A23721C9499000450192 /* Debug */,
+				F738A23821C9499000450192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F738A23921C9499000450192 /* Build configuration list for PBXNativeTarget "labiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F738A23A21C9499000450192 /* Debug */,
+				F738A23B21C9499000450192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F738A20321C9498500450192 /* Project object */;
+}

@@ -1,0 +1,30 @@
+Wnioski dotycz¹ce ró¿nic w œrodowiskach deweloperskich Android Studio i Visual Studio:
+
+- Sposób uruchamiania programu w symulatorze Visual Studio i Android Studio jest ró¿ny. Proces testowania dzia³ania aplikacji w symulatorze
+  w Android Studio jest bardziej z³o¿ony ni¿ w Visual Studio. W celu uruchamiania symulacji w Android Studio trzeba otworzyæ menad¿er 
+  zawieraj¹cy dodane wirtualne urz¹dzenia i z jego poziomu uruchomiæ wybrane urz¹dzenie wirtualne. Natomiast w Visual Studio napisan¹ aplikacjê 
+  buduje siê i uruchamiania w symulatorze jednym przyciskiem.
+
+- W trakcie testowania aplikacji w emulatorze telefonu w Visual Studio nie mo¿na zmieniaæ kodu.
+
+- Android Studio pozwala na uruchamianie tej samej aplikacji na kilku symulatorach jednoczeœnie. W Visual Studio nie jest to mo¿liwe, aby 
+  uruchomiæ aplikacjê na innym urz¹dzeniu wirtualne trzeba najpierw zatrzymaæ dzia³aj¹c¹ symulacjê.
+
+
+
+Uwagi na temat struktury projektu, organizacji kodu, sposobu tworzenia interfejsu:
+
+- Katalog projektu w Android Studio jest bardzie z³o¿ony ni¿ w Visual Studio. W projekcie Androidowym wystêpuje wiele katalogów i du¿o wiêcej
+  plików ni¿ w projecie aplikacji dla systemu Windows Mobile. W projekcie aplikacji na Androida wystêpuje plik Manifestu, zawieraj¹cy informacje
+  m.in. o kompatybilnoœci aplikacji, wymaganych zgodach do wybranych komponetów telefonu (permissions), a w projekcie aplikacji na system Windows
+  takiego pliku.  
+
+- Sposób organizacji kodu w Androidzie jest bardzie z³o¿ony ni¿ w Visual Studio. Przykladowo w Visual Studio nie trzeba inicjalizowaæ obiektu
+  w kodzie, natomiast w Android trzeba utworzyæ w kodzie referencjê do obiektu, wczytaæ plik xml metod¹ setContentView 
+  i metod¹ findViewById znaleŸæ obiekt.
+
+- W Visual Studio interfejs graficzny wraz z jego obs³ug¹ w kodzie mo¿na tworzyæ metod¹ "przeci¹gnij i upuœæ", nie jest wymagana ingerencja
+  w plik .xaml. Dwukrotne naciœniêcie na elemencie w pliku .xaml powoduje przejœcie do metody obs³uguj¹cej zdarzenie na obiekcie. 
+  Natomiast w Android Studio programista tworz¹c interfejs graficzny w Android Studio najpierw musi utworzyæ plik
+  .xml - layout ekranu w trybie tekstowym lub graficznym, a dopiero póŸniej napisaæ metody do wczytywania utworzonego pliku xml 
+  i do obs³ugiwania interakcji miêdzy elementami interfejsu.

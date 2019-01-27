@@ -1,0 +1,41 @@
+
+
+1) Reakcja na kliknięcie przycisku programowego 'Wyjdź' (metoda finish())
+
+Kliknięcie przycisku programowego 'Wyjdź' powoduje zamknięcie aplikacji i wyświetlenie po kolei następujących komunikatów:
+onPause
+onStop
+onDestroy
+
+
+2) Reakcja na kliknięcie sprzętowego przycisku BACK 
+
+Jest taka sama jak po naciśnieciu przycisku programowego 'Wyjdź' (metoda finish()).
+
+
+3) Reakcja na kliknięcie sprzętowego przycisku HOME
+
+Kliknięcie przycisku HOME powoduje zamknięcie aplikacji i wyświetlenie po kolei następujących komunikatów:
+onPause
+onStop
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+Informacja dotycząca zmian w projekcie:
+
+W pliku activity_main.xml zmieniono:
+
+- w 15-stej i 50-tej linijce kolor 'yellow' zamieniono na "#ff703300"
+- w 76-tej linii dodano przycisk 'Wyjdz'
+
+
+Zmiany w pliku MainActivity.java
+
+- w linii 18-tej dodano referencję do przycisku btnExit
+- w linii 32-giej dodano linie: btnExit    = findViewById(R.id.btnExit)
+
+- w linii 63-ciej dodano: Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+
+- zmieniono linie dotyczace wyświetlania komunikatów (linie: 73, 79, 85, 91, 97, 103)
+
+- dodano metodę onPause()

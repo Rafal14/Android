@@ -1,0 +1,21 @@
+Zmiany w projekcie.
+
+Do projektu dodano funkcjonalność opisaną w punkcie d w zadaniach
+do wykonania na laboratorium.
+
+W pliku activity_main.xml zmieniono nazwę ostatniego przycisku, 
+dodano pole edycyjne do wpisania indeksu i widget typu TextView
+dla wyświetlenia danych wysłanych przez nową aktywność.
+
+Zmieniono zawartość pliku activity_main2.xml poprzez dodanie pola
+edycyjnego dla zapisania rezultatu wyszukiwania osoby o indeksie 
+podanym w poprzedniej aktywności. Również do pliku activity_main2 
+dodano przycisk Powrót dla zakończenia wywołanej aktywności.
+
+W pliku MainActivity.java dodano metodę onActivityResult oraz zmieniono 
+linie od 82 do 91 (wysyłanie wpisanego numeru indeksu w paczce Bundle
+do nowej aktywności).
+
+Uzupełniono plik MainActivity2.java tak, aby pobierać numer indeksu 
+wysłany w paczce Bundle z poprzedniej aktywności i zwracać rezultat 
+wyszukiwania indeksu do poprzedniej aktywności.
